@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Historical Place Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Historical Place</h1>
+  <p>Share images, videos & story using links</p>
+</header>
+
+<section class="editor">
+  <h2>Add Content</h2>
+
+  <textarea id="desc" placeholder="Write the description..."></textarea>
+
+  <input id="images" placeholder="Image links (comma separated)">
+  <input id="videos" placeholder="YouTube video links (comma separated)">
+
+  <button onclick="publish()">Publish</button>
+</section>
+
+<section id="preview" class="preview hidden">
+  <h2>Preview</h2>
+  <div id="content"></div>
+</section>
+
+<footer>
+  Built as a progress MVP
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
