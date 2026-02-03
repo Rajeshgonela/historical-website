@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(135deg, #222, #444);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.editor {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.editor textarea,
+.editor input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.editor button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.preview {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
